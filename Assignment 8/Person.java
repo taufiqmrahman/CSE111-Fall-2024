@@ -34,7 +34,7 @@ public class Person {
         } 
         else if (dose.equals("2nd Dose")) {
             if (!firstDose) {
-                System.out.println("Sorry " + this.name + ", Invali dose request.");
+                System.out.println("Sorry " + this.name + ", Invalid dose request.");
             } 
             else if (secondDose) {
                 System.out.println("Sorry " + this.name + ", you already received both doses.");
@@ -48,7 +48,7 @@ public class Person {
             }
         } 
         else {
-            System.out.println("Sorry " + this.name + ", invalid dose request.");
+            System.out.println("Sorry " + this.name + ", Invalid dose request.");
         }
     }
 
